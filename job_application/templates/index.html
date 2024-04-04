@@ -46,8 +46,8 @@
                 </div>
                 <button class="btn btn-secondary mb-4" type="submit">Submit</button>
                 {% if messages %}
-                    {% for category, message in messages %}
-                        <div class="alert alert-{{ category }}">
+                    {% for message in messages %}
+                        <div class="alert alert-success">
                                 {{ message }}
                         </div>
                     {% endfor %}
