@@ -32,3 +32,44 @@ def index(request):
             messages.error(request, str(error), extra_tags="danger")
 
     return render(request, "index.html")
+
+
+def about(request):
+    return render(request, "about.html")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
